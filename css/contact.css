@@ -1,0 +1,16 @@
+.contacto {
+    gap: 3rem;
+}
+
+.socials {
+    padding: 1rem;
+    grid-template-columns: repeat(3 , minmax(50px , 100px));
+    grid-gap: 1rem;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.socials img{
+    width: 100%;
+}

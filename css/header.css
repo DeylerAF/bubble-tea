@@ -1,0 +1,41 @@
+header {
+    width: 100%;
+    padding: 1rem;
+    background-color: var(--background-color);
+    color: var(--color);
+    box-shadow: 0px .1px 5px #00000080 ;
+    position: fixed;
+    top: 0;
+    z-index: 100;
+}
+
+.header{
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.header .logo{
+    display: grid;
+    grid-template-columns: 75% 25%;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    column-gap: 1rem;
+}
+
+.header .logo h1{
+    font-size: var(--biggest-font-size);
+    font-family: 'Amatic SC', cursive;
+    justify-self: end;
+    color: #1F897C;
+}
+
+.header .logo {
+    justify-self: baseline;
+}
+
+
+.header .menu{
+    grid-template-columns: repeat(3, 1fr);
+    align-self: center;
+    column-gap: 1rem;
+}

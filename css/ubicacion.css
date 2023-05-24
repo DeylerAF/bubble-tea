@@ -1,0 +1,17 @@
+.ubicacion {
+    gap: 3rem;
+}
+
+.map{
+    justify-self: center;
+    width: 60%;
+    max-width: 1080px;
+    min-width: 260px;
+    height: auto;
+}
+
+.map img{
+    object-fit: fill;
+    object-position: center;
+    filter: drop-shadow(5px 5px 10px #000000);
+}
